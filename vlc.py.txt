@@ -1,0 +1,33 @@
+#!/usr/bin/python3
+import time
+import subprocess
+import webbrowser
+import os
+
+
+option = '''
+press 1 to count lines in any file
+
+press 2 to search on google
+
+press 3 to print current date and time
+
+press 4 to reboot
+press 5 to search on youtube
+'''
+print(option)
+choice =input()
+if choice == "3":
+ current_time=time.ctime()
+ print(current_time)
+elif choice == "1" :
+ os.system("/root/Desktop/count.py")
+
+elif choice == "2":
+ data=input("enter data you want to search")
+ webbrowser.open_new_tab('https://www.google.com/search?q=' +data)
+elif choice == "5":
+ data2=input("enter data you want to search on youtube ")
+ webbrowser.open_new_tab('https://www.youtube.com/results?search_query=' +data2,1)
+else  :
+ print("hiii")
