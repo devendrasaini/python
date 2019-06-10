@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+import datetime
+x= input("enter your name ")
+
+q= datetime.datetime.now()
+
+if (5<=q.hour< 12) :
+ print("good morning "+x)
+elif  (12<=q.hour<17) :
+ print("good afternoon "+x)
+elif (17<=q.hour<5) : 
+ print("good afternoon "+x)
+else :
+ print("hii")
+
