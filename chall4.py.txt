@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+import os
+
+user = input("enter username ")
+password1="hello"+user
+
+commanddd="useradd -p $(openssl passwd -1 "+password1+") "+user
+os.system(commanddd)
