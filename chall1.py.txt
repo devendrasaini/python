@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+import datetime
+
+
+name = input("enter your name here ")
+age = int(input("enter your age "))
+
+print(name)
+print(age)
+y= 95-age
+
+now = datetime.datetime.now()
+
+x =now.year
+print("you will become 95 years old in year")
+ 
+print(x+y)
+
+
+
