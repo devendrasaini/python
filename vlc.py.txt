@@ -10,7 +10,7 @@ press 1 to count lines in any file
 
 press 2 to search on google
 
-press 3 to print current date and time
+press 3 to print current date and TIME
 
 press 4 to reboot
 press 5 to search on youtube
